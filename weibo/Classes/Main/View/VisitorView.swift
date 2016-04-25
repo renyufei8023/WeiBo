@@ -19,7 +19,9 @@ class VisitorView: UIView {
         addSubview(loginBtn)
         addSubview(registerBtn)
         
-//        iconView.a
+        iconView.snp_makeConstraints { (make) -> Void in
+            make.center.equalTo(self)
+        }
     }
 
     required init?(coder aDecoder: NSCoder) {
