@@ -17,8 +17,8 @@ class HomeTableViewController: UITableViewController {
     }
     
     private func initView() {
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_friendattention", target: self, action: #selector(HomeTableViewController.addFriendClick))
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_pop", target: self, action: #selector(HomeTableViewController.pop))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_friendattention", target: self, action: "selectoraddFriendClick")
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_pop", target: self, action: "pop")
     }
 
     override func didReceiveMemoryWarning() {

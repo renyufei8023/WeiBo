@@ -17,7 +17,7 @@ class RYFTabbar: UITabBar {
         btn.setImage(UIImage(named: "tabbar_compose_icon_add"), forState: .Normal)
         btn.setBackgroundImage(UIImage(named: "tabbar_compose_button_highlighted"), forState: .Highlighted)
         btn.setBackgroundImage(UIImage(named: "tabbar_compose_button"), forState: .Normal)
-        btn.addTarget(self, action: #selector(RYFTabbar.plusSignClick), forControlEvents: .TouchUpInside)
+        btn.addTarget(self, action: "plusSignClick", forControlEvents: .TouchUpInside)
         return btn
     }()
     
