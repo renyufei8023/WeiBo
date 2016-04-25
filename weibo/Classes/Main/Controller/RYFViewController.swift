@@ -33,9 +33,7 @@ class RYFViewController: UITabBarController {
         childController.tabBarItem.image = image
         //文字属性
         let atts = [NSForegroundColorAttributeName:UIColor.orangeColor()]
-        let selectAtts = [NSForegroundColorAttributeName:UIColor.blackColor()]
         childController.tabBarItem.setTitleTextAttributes(atts, forState: .Highlighted)
-        childController.tabBarItem.setTitleTextAttributes(selectAtts, forState: .Normal)
         childController.tabBarItem.selectedImage = selectImage
         addChildViewController(nav)
     }

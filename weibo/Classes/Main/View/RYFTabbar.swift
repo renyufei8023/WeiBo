@@ -41,7 +41,6 @@ class RYFTabbar: UITabBar {
                 if index == 5 {
                     index = 4
                 }
-                print(index)
                 let buttonX = buttonW * CGFloat(index)
                 view.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH)
                 index += 1
