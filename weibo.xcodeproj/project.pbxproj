@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A358FA641CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358FA631CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift */; };
 		A3B06D851CCDEBE200D1627C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D841CCDEBE100D1627C /* AppDelegate.swift */; };
 		A3B06D871CCDEBE200D1627C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D861CCDEBE200D1627C /* ViewController.swift */; };
 		A3B06D8C1CCDEBE200D1627C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B06D8B1CCDEBE200D1627C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A358FA631CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		A3B06D811CCDEBE100D1627C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B06D841CCDEBE100D1627C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3B06D861CCDEBE200D1627C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A358FA601CCE1E9D00D6C696 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A358FA611CCE1E9D00D6C696 /* Extension */,
+				A358FA621CCE1E9D00D6C696 /* Vender */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A358FA611CCE1E9D00D6C696 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A358FA631CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A358FA621CCE1E9D00D6C696 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
 		A3B06D781CCDEBE100D1627C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +105,7 @@
 				A3B06D9F1CCDEC6100D1627C /* Main */,
 				A3B06DA31CCDEC6100D1627C /* Me */,
 				A3B06DA71CCDEC6100D1627C /* Message */,
+				A358FA601CCE1E9D00D6C696 /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -320,6 +347,7 @@
 				A3B06DB21CCDEF6300D1627C /* HomeTableViewController.swift in Sources */,
 				A3B06DB41CCDEF7100D1627C /* MeTableViewController.swift in Sources */,
 				A3B06DB61CCDEF7C00D1627C /* MessageTableViewController.swift in Sources */,
+				A358FA641CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift in Sources */,
 				A3B06DB81CCDF93700D1627C /* RYFTabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +483,7 @@
 				A3B06D951CCDEBE200D1627C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
