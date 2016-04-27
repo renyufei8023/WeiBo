@@ -34,12 +34,30 @@ class HomeTableViewController: BaseTableViewController {
     
     func titleBtnClick(titleBtn:TitleBtn)  {
         titleBtn.selected = !titleBtn.selected
+        
+        let sb = UIStoryboard(name: "PopoverViewController", bundle: nil)
+        let vc = sb.instantiateViewControllerWithIdentifier("PopoverViewController")
+        print(sb)
+        vc.transitioningDelegate = popoverAnimator
+        
+        // 2.2设置转场的样式
+        vc.modalPresentationStyle = UIModalPresentationStyle.Custom
+        
+        presentViewController(vc, animated: true, completion: nil)
     }
     
+    private lazy var popoverAnimator:PopoverAnimator = {
+        let popoverAnimator = PopoverAnimator()
+        return popoverAnimator
+    }()
+    
     func addFriendClick()  {
-//        print(__FUNATION__)
+
     }
-    func pop() -> Void {
+    func pop() {
+        let sb = UIStoryboard(name: "QRCodeViewController", bundle: nil)
+        let vc = sb.instantiateViewControllerWithIdentifier("QRCodeViewController")
+        presentViewController(vc, animated: true, completion: nil)
         
     }
 
@@ -111,3 +129,5 @@ class HomeTableViewController: BaseTableViewController {
     */
 
 }
+
+

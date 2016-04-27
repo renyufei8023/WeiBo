@@ -14,6 +14,12 @@
 		A346A0BC1CCE50B6003EBFD2 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346A0BB1CCE50B6003EBFD2 /* BaseTableViewController.swift */; };
 		A346A0BE1CCE50D5003EBFD2 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346A0BD1CCE50D5003EBFD2 /* VisitorView.swift */; };
 		A358FA641CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358FA631CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift */; };
+		A387E7AD1CD05A19007A2D91 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387E7AC1CD05A19007A2D91 /* PopoverViewController.swift */; };
+		A387E7AF1CD05A24007A2D91 /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A387E7AE1CD05A24007A2D91 /* PopoverViewController.storyboard */; };
+		A387E7B11CD05B86007A2D91 /* PopverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387E7B01CD05B86007A2D91 /* PopverPresentationController.swift */; };
+		A387E7B31CD06743007A2D91 /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387E7B21CD06743007A2D91 /* PopoverAnimator.swift */; };
+		A387E7B51CD0A7B6007A2D91 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A387E7B41CD0A7B6007A2D91 /* QRCodeViewController.swift */; };
+		A387E7B71CD0A7CC007A2D91 /* QRCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A387E7B61CD0A7CC007A2D91 /* QRCodeViewController.storyboard */; };
 		A3B06D851CCDEBE200D1627C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06D841CCDEBE100D1627C /* AppDelegate.swift */; };
 		A3B06D8C1CCDEBE200D1627C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B06D8B1CCDEBE200D1627C /* Assets.xcassets */; };
 		A3B06DAC1CCDEE8F00D1627C /* RYFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B06DAB1CCDEE8F00D1627C /* RYFViewController.swift */; };
@@ -34,6 +40,12 @@
 		A346A0BB1CCE50B6003EBFD2 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		A346A0BD1CCE50D5003EBFD2 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		A358FA631CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		A387E7AC1CD05A19007A2D91 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		A387E7AE1CD05A24007A2D91 /* PopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		A387E7B01CD05B86007A2D91 /* PopverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopverPresentationController.swift; sourceTree = "<group>"; };
+		A387E7B21CD06743007A2D91 /* PopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
+		A387E7B41CD0A7B6007A2D91 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		A387E7B61CD0A7CC007A2D91 /* QRCodeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRCodeViewController.storyboard; sourceTree = "<group>"; };
 		A3B06D811CCDEBE100D1627C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B06D841CCDEBE100D1627C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3B06D8B1CCDEBE200D1627C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +112,7 @@
 		A358FA621CCE1E9D00D6C696 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				A387E7B21CD06743007A2D91 /* PopoverAnimator.swift */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -192,6 +205,11 @@
 			isa = PBXGroup;
 			children = (
 				A3B06DB11CCDEF6300D1627C /* HomeTableViewController.swift */,
+				A387E7AC1CD05A19007A2D91 /* PopoverViewController.swift */,
+				A387E7AE1CD05A24007A2D91 /* PopoverViewController.storyboard */,
+				A387E7B01CD05B86007A2D91 /* PopverPresentationController.swift */,
+				A387E7B41CD0A7B6007A2D91 /* QRCodeViewController.swift */,
+				A387E7B61CD0A7CC007A2D91 /* QRCodeViewController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -372,7 +390,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A387E7AF1CD05A24007A2D91 /* PopoverViewController.storyboard in Resources */,
 				A3B06D8C1CCDEBE200D1627C /* Assets.xcassets in Resources */,
+				A387E7B71CD0A7CC007A2D91 /* QRCodeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +453,13 @@
 			files = (
 				A346A0BE1CCE50D5003EBFD2 /* VisitorView.swift in Sources */,
 				A3426F3A1CCF0F540035D43A /* UIView+RYF.m in Sources */,
+				A387E7AD1CD05A19007A2D91 /* PopoverViewController.swift in Sources */,
+				A387E7B51CD0A7B6007A2D91 /* QRCodeViewController.swift in Sources */,
 				A3B06DAC1CCDEE8F00D1627C /* RYFViewController.swift in Sources */,
 				A3B06DB01CCDEF3B00D1627C /* DiscovTableViewController.swift in Sources */,
 				A3426F361CCF0CCB0035D43A /* TitleBtn.swift in Sources */,
+				A387E7B31CD06743007A2D91 /* PopoverAnimator.swift in Sources */,
+				A387E7B11CD05B86007A2D91 /* PopverPresentationController.swift in Sources */,
 				A346A0BC1CCE50B6003EBFD2 /* BaseTableViewController.swift in Sources */,
 				A3426F451CCF4C1B0035D43A /* NewFeatureViewController.swift in Sources */,
 				A3B06D851CCDEBE200D1627C /* AppDelegate.swift in Sources */,

@@ -16,7 +16,7 @@ def pods
     pod 'Swift_cURLCommand'
     pod 'SnapKit','~> 0.19.0'
     pod "BSImagePicker", "~> 2.2.0"
-    pod 'TSVoiceConverter'
+#    pod 'TSVoiceConverter'
 
     #Objective-C
     pod 'YYText'
