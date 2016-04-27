@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeTableViewController: UITableViewController {
+class HomeTableViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,13 +17,23 @@ class HomeTableViewController: UITableViewController {
     }
     
     private func initView() {
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_friendattention", target: self, action: "selectoraddFriendClick")
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_friendattention", target: self, action: "addFriendClick")
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_pop", target: self, action: "pop")
+        let titleBtn = TitleBtn()
+        titleBtn.setTitle("任玉飞", forState: UIControlState.Normal)
+        titleBtn.addTarget(self, action: "titleBtnClick:", forControlEvents: UIControlEvents.TouchUpInside)
+        navigationItem.titleView = titleBtn
+        if !userLogin {
+            visitorView?.setupVisitorInfo(true, imageName: "visitordiscover_feed_image_house", message: "关注一些人，回这里看看有什么惊喜")
+            return
+        }
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func titleBtnClick(titleBtn:TitleBtn)  {
+        titleBtn.selected = !titleBtn.selected
     }
     
     func addFriendClick()  {
