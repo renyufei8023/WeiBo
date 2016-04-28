@@ -39,7 +39,7 @@
                                 <rect key="frame" x="0.0" y="551" width="600" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem title="二维码" image="qrcode_tabbar_icon_qrcode" selectedImage="qrcode_tabbar_icon_qrcode_highlighted" id="MvT-Ul-ZNs"/>
+                                    <tabBarItem tag="1" title="二维码" image="qrcode_tabbar_icon_qrcode" selectedImage="qrcode_tabbar_icon_qrcode_highlighted" id="MvT-Ul-ZNs"/>
                                     <tabBarItem title="条形码" image="qrcode_tabbar_icon_barcode" selectedImage="qrcode_tabbar_icon_barcode_highlighted" id="dsu-y5-jyB"/>
                                 </items>
                                 <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -54,7 +54,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="DKD-PB-hka" firstAttribute="leading" secondItem="GbV-HS-NY1" secondAttribute="leading" id="BuJ-5r-mzt"/>
                                     <constraint firstItem="wBI-AY-QL0" firstAttribute="width" secondItem="DKD-PB-hka" secondAttribute="width" id="K91-9c-uUu"/>
@@ -68,12 +68,21 @@
                                     <constraint firstItem="wBI-AY-QL0" firstAttribute="centerX" secondItem="GbV-HS-NY1" secondAttribute="centerX" id="srF-od-6mE"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9L-RX-kpl">
+                                <rect key="frame" x="277" y="486" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="myCardBtnClick:" destination="7S0-na-NSv" eventType="touchUpInside" id="Qo8-Nb-1E4"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="r9L-RX-kpl" firstAttribute="centerX" secondItem="6I8-fF-H8b" secondAttribute="centerX" id="EpP-Vc-Lx6"/>
                             <constraint firstItem="HdJ-OI-xDN" firstAttribute="top" secondItem="O0M-xE-aKf" secondAttribute="bottom" id="OZ9-VX-MlZ"/>
                             <constraint firstItem="GbV-HS-NY1" firstAttribute="centerY" secondItem="6I8-fF-H8b" secondAttribute="centerY" id="Oxm-cM-2uX"/>
                             <constraint firstAttribute="trailing" secondItem="O0M-xE-aKf" secondAttribute="trailing" id="QCa-Ko-ZjV"/>
+                            <constraint firstItem="r9L-RX-kpl" firstAttribute="top" secondItem="GbV-HS-NY1" secondAttribute="bottom" constant="36" id="rQV-Mc-WFL"/>
                             <constraint firstItem="O0M-xE-aKf" firstAttribute="leading" secondItem="6I8-fF-H8b" secondAttribute="leading" id="uXo-CT-db9"/>
                             <constraint firstItem="GbV-HS-NY1" firstAttribute="centerX" secondItem="6I8-fF-H8b" secondAttribute="centerX" id="x2Z-Km-tgZ"/>
                         </constraints>

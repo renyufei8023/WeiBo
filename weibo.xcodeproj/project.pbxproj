@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2FC30A0F68B5C0A2D568532C /* Pods_weibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C8C1323D5A58668C45D3B /* Pods_weibo.framework */; };
+		A32CE9C71CD2075F005394A7 /* QRCodeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CE9C61CD2075F005394A7 /* QRCodeCardViewController.swift */; };
+		A32CE9C91CD2148A005394A7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CE9C81CD2148A005394A7 /* UIImage+Extension.swift */; };
 		A3426F361CCF0CCB0035D43A /* TitleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3426F351CCF0CCB0035D43A /* TitleBtn.swift */; };
 		A3426F3A1CCF0F540035D43A /* UIView+RYF.m in Sources */ = {isa = PBXBuildFile; fileRef = A3426F391CCF0F540035D43A /* UIView+RYF.m */; };
 		A3426F451CCF4C1B0035D43A /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3426F441CCF4C1B0035D43A /* NewFeatureViewController.swift */; };
@@ -32,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		086C8C1323D5A58668C45D3B /* Pods_weibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32CE9C61CD2075F005394A7 /* QRCodeCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeCardViewController.swift; sourceTree = "<group>"; };
+		A32CE9C81CD2148A005394A7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		A3426F351CCF0CCB0035D43A /* TitleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleBtn.swift; sourceTree = "<group>"; };
 		A3426F371CCF0F520035D43A /* weibo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weibo-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3426F381CCF0F540035D43A /* UIView+RYF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RYF.h"; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				A3426F391CCF0F540035D43A /* UIView+RYF.m */,
 				A358FA631CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift */,
 				A3426F371CCF0F520035D43A /* weibo-Bridging-Header.h */,
+				A32CE9C81CD2148A005394A7 /* UIImage+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				A387E7B01CD05B86007A2D91 /* PopverPresentationController.swift */,
 				A387E7B41CD0A7B6007A2D91 /* QRCodeViewController.swift */,
 				A387E7B61CD0A7CC007A2D91 /* QRCodeViewController.storyboard */,
+				A32CE9C61CD2075F005394A7 /* QRCodeCardViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -463,9 +469,11 @@
 				A346A0BC1CCE50B6003EBFD2 /* BaseTableViewController.swift in Sources */,
 				A3426F451CCF4C1B0035D43A /* NewFeatureViewController.swift in Sources */,
 				A3B06D851CCDEBE200D1627C /* AppDelegate.swift in Sources */,
+				A32CE9C71CD2075F005394A7 /* QRCodeCardViewController.swift in Sources */,
 				A3B06DB21CCDEF6300D1627C /* HomeTableViewController.swift in Sources */,
 				A3B06DB41CCDEF7100D1627C /* MeTableViewController.swift in Sources */,
 				A3B06DB61CCDEF7C00D1627C /* MessageTableViewController.swift in Sources */,
+				A32CE9C91CD2148A005394A7 /* UIImage+Extension.swift in Sources */,
 				A358FA641CCE1FE500D6C696 /* UIBarButtonItem+Extension.swift in Sources */,
 				A3B06DB81CCDF93700D1627C /* RYFTabbar.swift in Sources */,
 			);
